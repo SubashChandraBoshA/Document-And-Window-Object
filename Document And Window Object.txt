@@ -1,0 +1,37 @@
+Document And Window Object
+
+Window Object:
+
+A window object is a window that displays the HTML document in a web browser window (or frame within a window).
+
+There are many objects that can be found in an HTML document, including a toolbar, menu, page, and many other things.
+
+Global variables, functions, and JavaScript objects can be found in the window object, which is supported by all major web browsers. These are automatically members of the window object.
+
+The window object, which is supported by all browsers, is the window that represents the browser and automatically contains global JavaScript objects, functions, and variables.
+
+
+Syntax:
+
+let url = window.document.URL;
+
+Methods:
+
+window.open() - open a new window
+window.close() - close the current window
+window.moveTo() - move the current window
+window.resizeTo() - resize the current window
+
+
+
+Document Object:
+
+The document object is a representation of a web page that has been loaded into the browser. Accessing the element on the HTML page is possible by using the document object. Document objects can be utilized to add dynamic content to our web page. The document object can be accessed through a window.
+
+Syntax:
+let url = document.URL;
+
+Methods:
+document.createElement(element) - Create an HTML element
+document.removeChild(element)- Remove an HTML element
+
